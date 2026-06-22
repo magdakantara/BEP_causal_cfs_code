@@ -1,4 +1,4 @@
-# BEP: Causal Counterfactual Stability Experiments
+# BEP: Causal Counterfactual Robustness Experiments
 
 Maria Magdalini Kantara
 ---
