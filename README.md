@@ -21,12 +21,10 @@ bep-causal-counterfactuals/
 │   └── german.csv
 │
 ├── GERMAN_CREDIT_EXPERIMENT/
-│   ├── german_results/
 │   ├── run_german_credit_causal.py
 │   └── VISUALIZATIONS.ipynb
 │
 ├── SIMPLE_BN_EXPERIMENT/
-│   ├── simple_bn_results/
 │   ├── run_simple_bn_causal.py
 │   └── VISUALIZATIONS.ipynb
 │
@@ -86,11 +84,6 @@ The experiment compares:
 * **Normal DiCE**
 * **CausalDiCE** with different causal weights
 
-The results are saved in:
-
-```text
-german_results/
-```
 
 The notebook `VISUALIZATIONS.ipynb` is used to analyze and visualize the generated CSV result files.
 
@@ -104,11 +97,7 @@ The Simple-BN dataset is generated from a known causal structure. This allows th
 
 The experiment compares standard and causal counterfactuals across different causal weights and random seeds.
 
-The results are saved in:
 
-```text
-simple_bn_results/
-```
 
 The notebook `VISUALIZATIONS.ipynb` is used to inspect and visualize the Simple-BN results.
 
