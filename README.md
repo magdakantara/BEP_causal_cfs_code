@@ -21,11 +21,11 @@ bep-causal-counterfactuals/
 │   └── german.csv
 │
 ├── GERMAN_CREDIT_EXPERIMENT/
-│   ├── run_german_credit_causal.py
+│   ├── run_german_credit_causal_weigth_experiment.py
 │   └── VISUALIZATIONS.ipynb
 │
 ├── SIMPLE_BN_EXPERIMENT/
-│   ├── run_simple_bn_causal.py
+│   ├── run_simple_bn_causal_weight_experiment.py
 │   └── VISUALIZATIONS.ipynb
 │
 ├── requirements.txt
